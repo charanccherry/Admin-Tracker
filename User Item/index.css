@@ -1,0 +1,56 @@
+.userItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 1px solid #3a8b94;
+}
+.user-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.checkbox {
+  height: 15px;
+  width: 15px;
+}
+.name-text {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-left: 40px;
+}
+.email-text {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.role-text {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-right: 40px;
+  text-align: center;
+}
+.btn-cont {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.button-item {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.edit {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+}
+.delete {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
