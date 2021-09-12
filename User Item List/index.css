@@ -1,0 +1,88 @@
+.user-detail-container {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid #00e7ff;
+  border-radius: 5px;
+  margin: 10px;
+  width: 100%;
+}
+.search-Input {
+  height: 5vh;
+  padding: 20px;
+  color: #ffffff;
+  border: none;
+  background-color: transparent;
+  border-bottom: 3px solid #00e7ff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  outline: none;
+  text-align: center;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 5px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #00e7ff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.checkbox-main {
+  height: 25px;
+  width: 25px;
+}
+.user-heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.header-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  border-radius: 1px;
+  width: 100%;
+  margin-top: 0px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-top: 2px solid #00e7ff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.delete-selected-button {
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 10px;
+  border-style: none;
+  border-radius: 20px;
+  width: 130px;
+}
+.navigation-delete {
+  display: flex;
+  justify-content: space-around;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-right: 15px;
+  border: 1px solid #00e7ff;
+}
+.arrow {
+  height: 20px;
+  width: 20px;
+}
