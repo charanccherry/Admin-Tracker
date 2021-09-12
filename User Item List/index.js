@@ -33,7 +33,7 @@ class UserItemList extends Component {
     }))
     this.setState({UserData: updatedData, isLoading: false})
   }
-
+  //   Tried using post method but unable to get.
   //   getUpdatedUserData = async () => {
   //     const requestOptions = {
   //       method: 'POST',
@@ -100,7 +100,7 @@ class UserItemList extends Component {
         <input
           type="search"
           className="search-Input"
-          placeholder="Select All or Search by Name, Email or Role"
+          placeholder="Select or Search by Name"
           onChange={this.onChangeSearchInput}
         />
         <nav className="header-top">
