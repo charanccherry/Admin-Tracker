@@ -1,0 +1,8 @@
+.user-tracker-app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+  padding-right: 20px;
+  background-color: #000000;
+}
